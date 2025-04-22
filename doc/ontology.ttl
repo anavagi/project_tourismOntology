@@ -1,0 +1,296 @@
+@prefix : <http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#> .
+
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6> rdf:type owl:Ontology ;
+                                                                          owl:imports <http://www.owl-ontologies.com/travel.owl> .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#hasPrice
+:hasPrice rdf:type owl:ObjectProperty ;
+          rdfs:domain :Hotel ,
+                      :Restaurant ,
+                      :Transport ;
+          rdfs:range :Price .
+
+
+###  http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#hasRating
+:hasRating rdf:type owl:ObjectProperty ;
+           rdfs:domain :Hotel ,
+                       :Restaurant ,
+                       :Ride ;
+           rdfs:range :Rating .
+
+
+###  http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#hasTransport
+:hasTransport rdf:type owl:ObjectProperty ;
+              rdfs:domain :Transport ;
+              rdfs:range :City .
+
+
+###  http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isRideIn
+:isRideIn rdf:type owl:ObjectProperty ;
+          rdfs:domain :Ride ;
+          rdfs:range :City .
+
+
+###  http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isTypeOfEvent
+:isTypeOfEvent rdf:type owl:ObjectProperty ;
+               rdfs:domain :EventType ;
+               rdfs:range :Event .
+
+
+###  http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isTypeOfHotel
+:isTypeOfHotel rdf:type owl:ObjectProperty ;
+               rdfs:domain :HotelType ;
+               rdfs:range :Hotel .
+
+
+###  http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isTypeOfHotelStars
+:isTypeOfHotelStars rdf:type owl:ObjectProperty ;
+                    rdfs:domain :HotelStarsType ;
+                    rdfs:range :Hotel .
+
+
+###  http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isTypeOfRestaurant
+:isTypeOfRestaurant rdf:type owl:ObjectProperty ;
+                    rdfs:domain :RestaurantType ;
+                    rdfs:range :Restaurant .
+
+
+###  http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isTypeOfRide
+:isTypeOfRide rdf:type owl:ObjectProperty ;
+              rdfs:domain :RideType ;
+              rdfs:range :Ride .
+
+
+###  http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isTypeOfTransport
+:isTypeOfTransport rdf:type owl:ObjectProperty ;
+                   rdfs:domain :TransportType ;
+                   rdfs:range :Transport .
+
+
+###  http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#occursEventIn
+:occursEventIn rdf:type owl:ObjectProperty ;
+               rdfs:domain :Event ;
+               rdfs:range :City .
+
+
+###  http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#placedRestaurantIn
+:placedRestaurantIn rdf:type owl:ObjectProperty ;
+                    rdfs:domain :Restaurant ;
+                    rdfs:range :City .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#company
+:company rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Transport ;
+         rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#hasDate
+:hasDate rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Event ;
+         rdfs:range xsd:dateTime .
+
+
+###  http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#hasLocation
+:hasLocation rdf:type owl:DatatypeProperty ;
+             rdfs:domain :City ;
+             rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#hasValue
+:hasValue rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Price ;
+          rdfs:range xsd:float .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#City
+:City rdf:type owl:Class ;
+      rdfs:comment "City"@en ;
+      rdfs:label "City"@en .
+
+
+###  http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Event
+:Event rdf:type owl:Class ;
+       rdfs:subClassOf [ rdf:type owl:Restriction ;
+                         owl:onProperty :isTypeOfEvent ;
+                         owl:someValuesFrom :Event
+                       ] ;
+       rdfs:comment "Events occurred in diferent cities related to tourism."@en ;
+       rdfs:label "Event"@en .
+
+
+###  http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#EventType
+:EventType rdf:type owl:Class ;
+           rdfs:comment "EventType"@en ;
+           rdfs:label "EventType"@en .
+
+
+###  http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Hotel
+:Hotel rdf:type owl:Class ;
+       rdfs:subClassOf [ rdf:type owl:Restriction ;
+                         owl:onProperty :isTypeOfHotel ;
+                         owl:someValuesFrom :Hotel
+                       ] ,
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty :isTypeOfHotelStars ;
+                         owl:someValuesFrom :Hotel
+                       ] ;
+       rdfs:comment "Offer hotel in cities"@en ;
+       rdfs:label "Hotel"@en .
+
+
+###  http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#HotelNightPrice
+:HotelNightPrice rdf:type owl:Class ;
+                 rdfs:subClassOf :Price ;
+                 rdfs:comment "HotelNightPrice"@en ;
+                 rdfs:label "HotelNightPrice"@en .
+
+
+###  http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#HotelRating
+:HotelRating rdf:type owl:Class ;
+             rdfs:subClassOf :Rating ;
+             rdfs:comment "HotelRating"@en ;
+             rdfs:label "HotelRating"@en .
+
+
+###  http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#HotelStarsType
+:HotelStarsType rdf:type owl:Class ;
+                rdfs:comment "HotelStarsType"@en ;
+                rdfs:label "HotelStarsType"@en .
+
+
+###  http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#HotelType
+:HotelType rdf:type owl:Class ;
+           rdfs:comment "HotelType"@en ;
+           rdfs:label "HotelType"@en .
+
+
+###  http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Price
+:Price rdf:type owl:Class ;
+       rdfs:comment "Price"@en ;
+       rdfs:label "Price"@en .
+
+
+###  http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Rating
+:Rating rdf:type owl:Class ;
+        rdfs:comment "Valoration of clases"@en ;
+        rdfs:label "Rating"@en .
+
+
+###  http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Restaurant
+:Restaurant rdf:type owl:Class ;
+            rdfs:comment "Offer of restaurant business in city"@en ;
+            rdfs:label "Restaurant"@en .
+
+
+###  http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#RestaurantAveragePrice
+:RestaurantAveragePrice rdf:type owl:Class ;
+                        rdfs:subClassOf :Price ;
+                        rdfs:comment "RestaurantAveragePrice"@en ;
+                        rdfs:label "RestaurantAveragePrice"@en .
+
+
+###  http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#RestaurantRating
+:RestaurantRating rdf:type owl:Class ;
+                  rdfs:subClassOf :Rating ;
+                  rdfs:comment "RestaurantRating"@en ;
+                  rdfs:label "RestaurantRating"@en .
+
+
+###  http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#RestaurantType
+:RestaurantType rdf:type owl:Class ;
+                rdfs:comment "RestaurantType"@en ;
+                rdfs:label "RestaurantType"@en .
+
+
+###  http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Ride
+:Ride rdf:type owl:Class ;
+      rdfs:comment "Tourist rides of selected cities"@en ;
+      rdfs:label "Ride"@en .
+
+
+###  http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#RideRating
+:RideRating rdf:type owl:Class ;
+            rdfs:subClassOf :Rating ;
+            rdfs:comment "RideRating"@en ;
+            rdfs:label "RideRating"@en .
+
+
+###  http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#RideType
+:RideType rdf:type owl:Class ;
+          rdfs:comment "Ride type"@en ;
+          rdfs:label "RideType"@en .
+
+
+###  http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Transport
+:Transport rdf:type owl:Class ;
+           rdfs:comment "Transport aviable in the city"@en ;
+           rdfs:label "Transport"@en .
+
+
+###  http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#TransportAveragePrice
+:TransportAveragePrice rdf:type owl:Class ;
+                       rdfs:subClassOf :Price ;
+                       rdfs:comment "TransportAveragePrice"@en ;
+                       rdfs:label "TransportAveragePrice"@en .
+
+
+###  http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#TransportType
+:TransportType rdf:type owl:Class ;
+               rdfs:comment "Type of city transport:"@en ;
+               rdfs:label "TransportType"@en .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#CastilloZaragoza
+:CastilloZaragoza rdf:type owl:NamedIndividual ,
+                           :Ride .
+
+
+###  http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#CongresoCadiz
+:CongresoCadiz rdf:type owl:NamedIndividual ,
+                        :Event .
+
+
+###  http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#HotelVistaSevilla
+:HotelVistaSevilla rdf:type owl:NamedIndividual ,
+                            :Hotel .
+
+
+###  http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#MetroMadrid
+:MetroMadrid rdf:type owl:NamedIndividual ,
+                      :Transport .
+
+
+###  http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#RestauranteTradicionToledo
+:RestauranteTradicionToledo rdf:type owl:NamedIndividual ,
+                                     :Restaurant .
+
+
+###  http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Toledo
+:Toledo rdf:type owl:NamedIndividual ,
+                 :City .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

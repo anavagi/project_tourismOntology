@@ -1,0 +1,265 @@
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6> <http://www.w3.org/2002/07/owl#imports> <http://www.owl-ontologies.com/travel.owl> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#hasPrice
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#hasPrice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#hasPrice> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Hotel> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#hasPrice> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Restaurant> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#hasPrice> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Transport> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#hasPrice> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Price> .
+# 
+# http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#hasRating
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#hasRating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#hasRating> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Hotel> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#hasRating> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Restaurant> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#hasRating> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Ride> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#hasRating> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Rating> .
+# 
+# http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#hasTransport
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#hasTransport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#hasTransport> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Transport> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#hasTransport> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#City> .
+# 
+# http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isRideIn
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isRideIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isRideIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Ride> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isRideIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#City> .
+# 
+# http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isTypeOfEvent
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isTypeOfEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isTypeOfEvent> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#EventType> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isTypeOfEvent> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Event> .
+# 
+# http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isTypeOfHotel
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isTypeOfHotel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isTypeOfHotel> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#HotelType> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isTypeOfHotel> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Hotel> .
+# 
+# http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isTypeOfHotelStars
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isTypeOfHotelStars> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isTypeOfHotelStars> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#HotelStarsType> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isTypeOfHotelStars> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Hotel> .
+# 
+# http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isTypeOfRestaurant
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isTypeOfRestaurant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isTypeOfRestaurant> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#RestaurantType> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isTypeOfRestaurant> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Restaurant> .
+# 
+# http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isTypeOfRide
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isTypeOfRide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isTypeOfRide> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#RideType> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isTypeOfRide> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Ride> .
+# 
+# http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isTypeOfTransport
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isTypeOfTransport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isTypeOfTransport> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#TransportType> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isTypeOfTransport> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Transport> .
+# 
+# http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#occursEventIn
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#occursEventIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#occursEventIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Event> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#occursEventIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#City> .
+# 
+# http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#placedRestaurantIn
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#placedRestaurantIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#placedRestaurantIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Restaurant> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#placedRestaurantIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#City> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#company
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#company> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#company> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Transport> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#company> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#hasDate
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#hasDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#hasDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Event> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#hasDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+# 
+# http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#hasLocation
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#hasLocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#hasLocation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#City> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#hasLocation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#hasValue
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#hasValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#hasValue> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Price> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#hasValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#City
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#City> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#City> <http://www.w3.org/2000/01/rdf-schema#comment> "City"@en .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#City> <http://www.w3.org/2000/01/rdf-schema#label> "City"@en .
+# 
+# http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Event
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Event> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Event> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isTypeOfEvent> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Event> <http://www.w3.org/2000/01/rdf-schema#comment> "Events occurred in diferent cities related to tourism."@en .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Event> <http://www.w3.org/2000/01/rdf-schema#label> "Event"@en .
+# 
+# http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#EventType
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#EventType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#EventType> <http://www.w3.org/2000/01/rdf-schema#comment> "EventType"@en .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#EventType> <http://www.w3.org/2000/01/rdf-schema#label> "EventType"@en .
+# 
+# http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Hotel
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Hotel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Hotel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
+_:genid2 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Hotel> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isTypeOfHotel> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Hotel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid3 .
+_:genid3 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Hotel> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isTypeOfHotelStars> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Hotel> <http://www.w3.org/2000/01/rdf-schema#comment> "Offer hotel in cities"@en .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Hotel> <http://www.w3.org/2000/01/rdf-schema#label> "Hotel"@en .
+# 
+# http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#HotelNightPrice
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#HotelNightPrice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#HotelNightPrice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Price> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#HotelNightPrice> <http://www.w3.org/2000/01/rdf-schema#comment> "HotelNightPrice"@en .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#HotelNightPrice> <http://www.w3.org/2000/01/rdf-schema#label> "HotelNightPrice"@en .
+# 
+# http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#HotelRating
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#HotelRating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#HotelRating> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Rating> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#HotelRating> <http://www.w3.org/2000/01/rdf-schema#comment> "HotelRating"@en .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#HotelRating> <http://www.w3.org/2000/01/rdf-schema#label> "HotelRating"@en .
+# 
+# http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#HotelStarsType
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#HotelStarsType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#HotelStarsType> <http://www.w3.org/2000/01/rdf-schema#comment> "HotelStarsType"@en .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#HotelStarsType> <http://www.w3.org/2000/01/rdf-schema#label> "HotelStarsType"@en .
+# 
+# http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#HotelType
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#HotelType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#HotelType> <http://www.w3.org/2000/01/rdf-schema#comment> "HotelType"@en .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#HotelType> <http://www.w3.org/2000/01/rdf-schema#label> "HotelType"@en .
+# 
+# http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Price
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Price> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Price> <http://www.w3.org/2000/01/rdf-schema#comment> "Price"@en .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Price> <http://www.w3.org/2000/01/rdf-schema#label> "Price"@en .
+# 
+# http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Rating
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Rating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Rating> <http://www.w3.org/2000/01/rdf-schema#comment> "Valoration of clases"@en .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Rating> <http://www.w3.org/2000/01/rdf-schema#label> "Rating"@en .
+# 
+# http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Restaurant
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Restaurant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Restaurant> <http://www.w3.org/2000/01/rdf-schema#comment> "Offer of restaurant business in city"@en .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Restaurant> <http://www.w3.org/2000/01/rdf-schema#label> "Restaurant"@en .
+# 
+# http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#RestaurantAveragePrice
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#RestaurantAveragePrice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#RestaurantAveragePrice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Price> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#RestaurantAveragePrice> <http://www.w3.org/2000/01/rdf-schema#comment> "RestaurantAveragePrice"@en .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#RestaurantAveragePrice> <http://www.w3.org/2000/01/rdf-schema#label> "RestaurantAveragePrice"@en .
+# 
+# http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#RestaurantRating
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#RestaurantRating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#RestaurantRating> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Rating> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#RestaurantRating> <http://www.w3.org/2000/01/rdf-schema#comment> "RestaurantRating"@en .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#RestaurantRating> <http://www.w3.org/2000/01/rdf-schema#label> "RestaurantRating"@en .
+# 
+# http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#RestaurantType
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#RestaurantType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#RestaurantType> <http://www.w3.org/2000/01/rdf-schema#comment> "RestaurantType"@en .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#RestaurantType> <http://www.w3.org/2000/01/rdf-schema#label> "RestaurantType"@en .
+# 
+# http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Ride
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Ride> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Ride> <http://www.w3.org/2000/01/rdf-schema#comment> "Tourist rides of selected cities"@en .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Ride> <http://www.w3.org/2000/01/rdf-schema#label> "Ride"@en .
+# 
+# http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#RideRating
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#RideRating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#RideRating> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Rating> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#RideRating> <http://www.w3.org/2000/01/rdf-schema#comment> "RideRating"@en .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#RideRating> <http://www.w3.org/2000/01/rdf-schema#label> "RideRating"@en .
+# 
+# http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#RideType
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#RideType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#RideType> <http://www.w3.org/2000/01/rdf-schema#comment> "Ride type"@en .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#RideType> <http://www.w3.org/2000/01/rdf-schema#label> "RideType"@en .
+# 
+# http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Transport
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Transport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Transport> <http://www.w3.org/2000/01/rdf-schema#comment> "Transport aviable in the city"@en .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Transport> <http://www.w3.org/2000/01/rdf-schema#label> "Transport"@en .
+# 
+# http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#TransportAveragePrice
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#TransportAveragePrice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#TransportAveragePrice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Price> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#TransportAveragePrice> <http://www.w3.org/2000/01/rdf-schema#comment> "TransportAveragePrice"@en .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#TransportAveragePrice> <http://www.w3.org/2000/01/rdf-schema#label> "TransportAveragePrice"@en .
+# 
+# http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#TransportType
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#TransportType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#TransportType> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of city transport:"@en .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#TransportType> <http://www.w3.org/2000/01/rdf-schema#label> "TransportType"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#CastilloZaragoza
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#CastilloZaragoza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#CastilloZaragoza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Ride> .
+# 
+# http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#CongresoCadiz
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#CongresoCadiz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#CongresoCadiz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Event> .
+# 
+# http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#HotelVistaSevilla
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#HotelVistaSevilla> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#HotelVistaSevilla> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Hotel> .
+# 
+# http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#MetroMadrid
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#MetroMadrid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#MetroMadrid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Transport> .
+# 
+# http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#RestauranteTradicionToledo
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#RestauranteTradicionToledo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#RestauranteTradicionToledo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Restaurant> .
+# 
+# http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Toledo
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Toledo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Toledo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#City> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

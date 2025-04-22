@@ -1,0 +1,714 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6", "http://www.w3.org/2001/XMLSchema" ],
+    "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "40",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "11",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "36",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "42",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "48",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Transport",
+    "baseIri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Transport",
+      "en" : "Transport"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#MetroMadrid",
+      "baseIri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6",
+      "labels" : {
+        "IRI-based" : "MetroMadrid"
+      }
+    } ],
+    "comment" : {
+      "en" : "Transport aviable in the city"
+    },
+    "id" : "3"
+  }, {
+    "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#HotelNightPrice",
+    "baseIri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HotelNightPrice",
+      "en" : "HotelNightPrice"
+    },
+    "comment" : {
+      "en" : "HotelNightPrice"
+    },
+    "id" : "7",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Hotel",
+    "baseIri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Hotel",
+      "en" : "Hotel"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#HotelVistaSevilla",
+      "baseIri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6",
+      "labels" : {
+        "IRI-based" : "HotelVistaSevilla"
+      }
+    } ],
+    "comment" : {
+      "en" : "Offer hotel in cities"
+    },
+    "id" : "9"
+  }, {
+    "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Ride",
+    "baseIri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Ride",
+      "en" : "Ride"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#CastilloZaragoza",
+      "baseIri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6",
+      "labels" : {
+        "IRI-based" : "CastilloZaragoza"
+      }
+    } ],
+    "comment" : {
+      "en" : "Tourist rides of selected cities"
+    },
+    "id" : "1"
+  }, {
+    "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#RideRating",
+    "baseIri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RideRating",
+      "en" : "RideRating"
+    },
+    "comment" : {
+      "en" : "RideRating"
+    },
+    "id" : "12",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Rating",
+    "baseIri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Rating",
+      "en" : "Rating"
+    },
+    "subClasses" : [ "15", "12", "16" ],
+    "comment" : {
+      "en" : "Valoration of clases"
+    },
+    "id" : "6"
+  }, {
+    "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#HotelType",
+    "baseIri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HotelType",
+      "en" : "HotelType"
+    },
+    "comment" : {
+      "en" : "HotelType"
+    },
+    "id" : "17"
+  }, {
+    "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#RestaurantRating",
+    "baseIri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RestaurantRating",
+      "en" : "RestaurantRating"
+    },
+    "comment" : {
+      "en" : "RestaurantRating"
+    },
+    "id" : "15",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#City",
+    "baseIri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "City",
+      "en" : "City"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Toledo",
+      "baseIri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6",
+      "labels" : {
+        "IRI-based" : "Toledo"
+      }
+    } ],
+    "comment" : {
+      "en" : "City"
+    },
+    "id" : "2"
+  }, {
+    "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#TransportAveragePrice",
+    "baseIri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TransportAveragePrice",
+      "en" : "TransportAveragePrice"
+    },
+    "comment" : {
+      "en" : "TransportAveragePrice"
+    },
+    "id" : "21",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#EventType",
+    "baseIri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "EventType",
+      "en" : "EventType"
+    },
+    "comment" : {
+      "en" : "EventType"
+    },
+    "id" : "31"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "29",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "40",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "11",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "36",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "9", "3", "26" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "42"
+  }, {
+    "instances" : 0,
+    "union" : [ "9", "1", "26" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "5"
+  }, {
+    "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#RestaurantAveragePrice",
+    "baseIri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RestaurantAveragePrice",
+      "en" : "RestaurantAveragePrice"
+    },
+    "comment" : {
+      "en" : "RestaurantAveragePrice"
+    },
+    "id" : "24",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#RestaurantType",
+    "baseIri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RestaurantType",
+      "en" : "RestaurantType"
+    },
+    "comment" : {
+      "en" : "RestaurantType"
+    },
+    "id" : "33"
+  }, {
+    "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Restaurant",
+    "baseIri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Restaurant",
+      "en" : "Restaurant"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#RestauranteTradicionToledo",
+      "baseIri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6",
+      "labels" : {
+        "IRI-based" : "RestauranteTradicionToledo"
+      }
+    } ],
+    "comment" : {
+      "en" : "Offer of restaurant business in city"
+    },
+    "id" : "26"
+  }, {
+    "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Price",
+    "baseIri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Price",
+      "en" : "Price"
+    },
+    "subClasses" : [ "21", "24", "7" ],
+    "comment" : {
+      "en" : "Price"
+    },
+    "id" : "8"
+  }, {
+    "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Event",
+    "baseIri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Event",
+      "en" : "Event"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#CongresoCadiz",
+      "baseIri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6",
+      "labels" : {
+        "IRI-based" : "CongresoCadiz"
+      }
+    } ],
+    "comment" : {
+      "en" : "Events occurred in diferent cities related to tourism."
+    },
+    "id" : "20"
+  }, {
+    "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#HotelRating",
+    "baseIri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HotelRating",
+      "en" : "HotelRating"
+    },
+    "comment" : {
+      "en" : "HotelRating"
+    },
+    "id" : "16",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#TransportType",
+    "baseIri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TransportType",
+      "en" : "TransportType"
+    },
+    "comment" : {
+      "en" : "Type of city transport:"
+    },
+    "id" : "48"
+  }, {
+    "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#RideType",
+    "baseIri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RideType",
+      "en" : "RideType"
+    },
+    "comment" : {
+      "en" : "Ride type"
+    },
+    "id" : "38"
+  }, {
+    "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#HotelStarsType",
+    "baseIri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HotelStarsType",
+      "en" : "HotelStarsType"
+    },
+    "comment" : {
+      "en" : "HotelStarsType"
+    },
+    "id" : "14"
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "4",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "10",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "13",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "18",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "19",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "23",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "25",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "27",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "28",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "30",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "32",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "34",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "35",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "37",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "39",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "41",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "43",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "44",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "45",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "46",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "47",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "49",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "50",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isRideIn",
+    "baseIri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "isRideIn"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#hasRating",
+    "baseIri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "hasRating"
+    },
+    "domain" : "5",
+    "attributes" : [ "object" ],
+    "id" : "4"
+  }, {
+    "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#hasLocation",
+    "baseIri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "hasLocation"
+    },
+    "domain" : "2",
+    "attributes" : [ "datatype" ],
+    "id" : "10"
+  }, {
+    "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isTypeOfHotelStars",
+    "baseIri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "isTypeOfHotelStars"
+    },
+    "domain" : "14",
+    "attributes" : [ "object" ],
+    "id" : "13"
+  }, {
+    "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#hasTransport",
+    "baseIri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "hasTransport"
+    },
+    "domain" : "3",
+    "attributes" : [ "object" ],
+    "id" : "18"
+  }, {
+    "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#occursEventIn",
+    "baseIri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "occursEventIn"
+    },
+    "domain" : "20",
+    "attributes" : [ "object" ],
+    "id" : "19"
+  }, {
+    "range" : "8",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "22"
+  }, {
+    "range" : "8",
+    "domain" : "24",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "23"
+  }, {
+    "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#placedRestaurantIn",
+    "baseIri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "placedRestaurantIn"
+    },
+    "domain" : "26",
+    "attributes" : [ "object" ],
+    "id" : "25"
+  }, {
+    "range" : "6",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "27"
+  }, {
+    "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#company",
+    "baseIri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6",
+    "range" : "29",
+    "label" : {
+      "IRI-based" : "company"
+    },
+    "domain" : "3",
+    "attributes" : [ "datatype" ],
+    "id" : "28"
+  }, {
+    "range" : "8",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "30"
+  }, {
+    "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isTypeOfRestaurant",
+    "baseIri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6",
+    "range" : "26",
+    "label" : {
+      "IRI-based" : "isTypeOfRestaurant"
+    },
+    "domain" : "33",
+    "attributes" : [ "object" ],
+    "id" : "32"
+  }, {
+    "range" : "6",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "34"
+  }, {
+    "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#hasValue",
+    "baseIri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6",
+    "range" : "36",
+    "label" : {
+      "IRI-based" : "hasValue"
+    },
+    "domain" : "8",
+    "attributes" : [ "datatype" ],
+    "id" : "35"
+  }, {
+    "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isTypeOfRide",
+    "baseIri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "isTypeOfRide"
+    },
+    "domain" : "38",
+    "attributes" : [ "object" ],
+    "id" : "37"
+  }, {
+    "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isTypeOfHotel",
+    "baseIri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "isTypeOfHotel"
+    },
+    "domain" : "9",
+    "attributes" : [ "object", "someValues" ],
+    "id" : "39"
+  }, {
+    "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isTypeOfHotel",
+    "baseIri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "isTypeOfHotel"
+    },
+    "domain" : "17",
+    "attributes" : [ "object" ],
+    "id" : "41"
+  }, {
+    "range" : "6",
+    "domain" : "15",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "43"
+  }, {
+    "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isTypeOfEvent",
+    "baseIri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "isTypeOfEvent"
+    },
+    "domain" : "31",
+    "attributes" : [ "object" ],
+    "id" : "44"
+  }, {
+    "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isTypeOfEvent",
+    "baseIri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "isTypeOfEvent"
+    },
+    "domain" : "20",
+    "attributes" : [ "object", "someValues" ],
+    "id" : "45"
+  }, {
+    "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isTypeOfHotelStars",
+    "baseIri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "isTypeOfHotelStars"
+    },
+    "domain" : "9",
+    "attributes" : [ "object", "someValues" ],
+    "id" : "46"
+  }, {
+    "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#hasPrice",
+    "baseIri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "hasPrice"
+    },
+    "domain" : "42",
+    "attributes" : [ "object" ],
+    "id" : "47"
+  }, {
+    "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#hasDate",
+    "baseIri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6",
+    "range" : "40",
+    "label" : {
+      "IRI-based" : "hasDate"
+    },
+    "domain" : "20",
+    "attributes" : [ "datatype" ],
+    "id" : "49"
+  }, {
+    "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isTypeOfTransport",
+    "baseIri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "isTypeOfTransport"
+    },
+    "domain" : "48",
+    "attributes" : [ "object" ],
+    "id" : "50"
+  } ]
+}
