@@ -37,7 +37,7 @@
     "id" : "21",
     "type" : "owl:Class"
   }, {
-    "id" : "31",
+    "id" : "33",
     "type" : "owl:Class"
   }, {
     "id" : "29",
@@ -61,7 +61,7 @@
     "id" : "24",
     "type" : "owl:Class"
   }, {
-    "id" : "33",
+    "id" : "32",
     "type" : "owl:Class"
   }, {
     "id" : "26",
@@ -249,7 +249,7 @@
     "comment" : {
       "en" : "EventType"
     },
-    "id" : "31"
+    "id" : "33"
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
@@ -312,7 +312,7 @@
     "comment" : {
       "en" : "RestaurantType"
     },
-    "id" : "33"
+    "id" : "32"
   }, {
     "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Restaurant",
     "baseIri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6",
@@ -451,7 +451,7 @@
     "id" : "30",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "32",
+    "id" : "31",
     "type" : "owl:objectProperty"
   }, {
     "id" : "34",
@@ -597,9 +597,9 @@
     "label" : {
       "IRI-based" : "isTypeOfRestaurant"
     },
-    "domain" : "33",
+    "domain" : "32",
     "attributes" : [ "object" ],
-    "id" : "32"
+    "id" : "31"
   }, {
     "range" : "6",
     "domain" : "16",
@@ -626,14 +626,14 @@
     "attributes" : [ "object" ],
     "id" : "37"
   }, {
-    "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isTypeOfHotel",
+    "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isTypeOfHotelStars",
     "baseIri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6",
     "range" : "9",
     "label" : {
-      "IRI-based" : "isTypeOfHotel"
+      "IRI-based" : "isTypeOfHotelStars"
     },
     "domain" : "9",
-    "attributes" : [ "object", "someValues" ],
+    "attributes" : [ "someValues", "object" ],
     "id" : "39"
   }, {
     "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isTypeOfHotel",
@@ -657,7 +657,7 @@
     "label" : {
       "IRI-based" : "isTypeOfEvent"
     },
-    "domain" : "31",
+    "domain" : "33",
     "attributes" : [ "object" ],
     "id" : "44"
   }, {
@@ -668,17 +668,17 @@
       "IRI-based" : "isTypeOfEvent"
     },
     "domain" : "20",
-    "attributes" : [ "object", "someValues" ],
+    "attributes" : [ "someValues", "object" ],
     "id" : "45"
   }, {
-    "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isTypeOfHotelStars",
+    "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isTypeOfHotel",
     "baseIri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6",
     "range" : "9",
     "label" : {
-      "IRI-based" : "isTypeOfHotelStars"
+      "IRI-based" : "isTypeOfHotel"
     },
     "domain" : "9",
-    "attributes" : [ "object", "someValues" ],
+    "attributes" : [ "someValues", "object" ],
     "id" : "46"
   }, {
     "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#hasPrice",
