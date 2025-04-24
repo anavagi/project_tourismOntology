@@ -1,0 +1,779 @@
+<h2 id="overv" class="list">Intelligent tourism and recommendations: Overview <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<span class="markdown">
+This ontology has the following classes and properties.</span>
+<h4>Classes</h4>
+<ul xmlns:widoco="https://w3id.org/widoco/vocab#"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    class="hlist">
+   <li>
+      <a href="#http://purl.org/dc/terms/AgentClass" title="http://purl.org/dc/terms/AgentClass">
+         <span>Agent Class</span>
+      </a>
+   </li>
+   <li>
+      <a href="#City"
+         title="http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#City">City</a>
+   </li>
+   <li>
+      <a href="#Event"
+         title="http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Event">Event</a>
+   </li>
+   <li>
+      <a href="#EventType"
+         title="http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#EventType">EventType</a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/FileFormat" title="http://purl.org/dc/terms/FileFormat">
+         <span>File Format</span>
+      </a>
+   </li>
+   <li>
+      <a href="#Hotel"
+         title="http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Hotel">Hotel</a>
+   </li>
+   <li>
+      <a href="#HotelNightPrice"
+         title="http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#HotelNightPrice">HotelNightPrice</a>
+   </li>
+   <li>
+      <a href="#HotelRating"
+         title="http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#HotelRating">HotelRating</a>
+   </li>
+   <li>
+      <a href="#HotelStarsType"
+         title="http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#HotelStarsType">HotelStarsType</a>
+   </li>
+   <li>
+      <a href="#HotelType"
+         title="http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#HotelType">HotelType</a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/Jurisdiction" title="http://purl.org/dc/terms/Jurisdiction">
+         <span>Jurisdiction</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/LicenseDocument" title="http://purl.org/dc/terms/LicenseDocument">
+         <span>License Document</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/Location" title="http://purl.org/dc/terms/Location">
+         <span>Location</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/MediaType" title="http://purl.org/dc/terms/MediaType">
+         <span>Media Type</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/PeriodOfTime" title="http://purl.org/dc/terms/PeriodOfTime">
+         <span>Period of Time</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/PhysicalMedium" title="http://purl.org/dc/terms/PhysicalMedium">
+         <span>Physical Medium</span>
+      </a>
+   </li>
+   <li>
+      <a href="#Price"
+         title="http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Price">Price</a>
+   </li>
+   <li>
+      <a href="#Rating"
+         title="http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Rating">Rating</a>
+   </li>
+   <li>
+      <a href="#Restaurant"
+         title="http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Restaurant">Restaurant</a>
+   </li>
+   <li>
+      <a href="#RestaurantAveragePrice"
+         title="http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#RestaurantAveragePrice">RestaurantAveragePrice</a>
+   </li>
+   <li>
+      <a href="#RestaurantRating"
+         title="http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#RestaurantRating">RestaurantRating</a>
+   </li>
+   <li>
+      <a href="#RestaurantType"
+         title="http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#RestaurantType">RestaurantType</a>
+   </li>
+   <li>
+      <a href="#Ride"
+         title="http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Ride">Ride</a>
+   </li>
+   <li>
+      <a href="#RideRating"
+         title="http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#RideRating">RideRating</a>
+   </li>
+   <li>
+      <a href="#RideType"
+         title="http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#RideType">RideType</a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/SizeOrDuration" title="http://purl.org/dc/terms/SizeOrDuration">
+         <span>Size or Duration</span>
+      </a>
+   </li>
+   <li>
+      <a href="#Transport"
+         title="http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Transport">Transport</a>
+   </li>
+   <li>
+      <a href="#TransportAveragePrice"
+         title="http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#TransportAveragePrice">TransportAveragePrice</a>
+   </li>
+   <li>
+      <a href="#TransportType"
+         title="http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#TransportType">TransportType</a>
+   </li>
+</ul><h4>Object Properties</h4><ul xmlns:widoco="https://w3id.org/widoco/vocab#"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    class="hlist">
+   <li>
+      <a href="#hasPrice"
+         title="http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#hasPrice">hasPrice</a>
+   </li>
+   <li>
+      <a href="#hasRating"
+         title="http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#hasRating">hasRating</a>
+   </li>
+   <li>
+      <a href="#hasTransport"
+         title="http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#hasTransport">hasTransport</a>
+   </li>
+   <li>
+      <a href="#isRideIn"
+         title="http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isRideIn">isRideIn</a>
+   </li>
+   <li>
+      <a href="#isTypeOfHotel"
+         title="http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isTypeOfHotel">isType of Hotel</a>
+   </li>
+   <li>
+      <a href="#isTypeOfEvent"
+         title="http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isTypeOfEvent">isTypeOfEvent</a>
+   </li>
+   <li>
+      <a href="#isTypeOfHotelStars"
+         title="http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isTypeOfHotelStars">isTypeOfHotelStars</a>
+   </li>
+   <li>
+      <a href="#isTypeOfRestaurant"
+         title="http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isTypeOfRestaurant">isTypeOfRestaurant</a>
+   </li>
+   <li>
+      <a href="#isTypeOfRide"
+         title="http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isTypeOfRide">isTypeOfRide</a>
+   </li>
+   <li>
+      <a href="#isTypeOfTransport"
+         title="http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isTypeOfTransport">isTypeOfTransport</a>
+   </li>
+   <li>
+      <a href="#occursEventIn"
+         title="http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#occursEventIn">occursEventIn</a>
+   </li>
+   <li>
+      <a href="#placedRestaurantIn"
+         title="http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#placedRestaurantIn">placedRestaurantIn</a>
+   </li>
+</ul><h4>Data Properties</h4><ul xmlns:widoco="https://w3id.org/widoco/vocab#"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    class="hlist">
+   <li>
+      <a href="#http://purl.org/dc/terms/alternative" title="http://purl.org/dc/terms/alternative">
+         <span>Alternative Title</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/bibliographicCitation" title="http://purl.org/dc/terms/bibliographicCitation">
+         <span>Bibliographic Citation</span>
+      </a>
+   </li>
+   <li>
+      <a href="#company"
+         title="http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#company">company</a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/date" title="http://purl.org/dc/terms/date">
+         <span>Date</span>
+      </a>
+   </li>
+   <li>
+      <a href="#hasDate"
+         title="http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#hasDate">Date</a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/dateAccepted" title="http://purl.org/dc/terms/dateAccepted">
+         <span>Date Accepted</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/available" title="http://purl.org/dc/terms/available">
+         <span>Date Available</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/dateCopyrighted" title="http://purl.org/dc/terms/dateCopyrighted">
+         <span>Date Copyrighted</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/created" title="http://purl.org/dc/terms/created">
+         <span>Date Created</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/issued" title="http://purl.org/dc/terms/issued">
+         <span>Date Issued</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/issued" title="http://purl.org/dc/terms/issued">
+         <span>Date Issued</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/modified" title="http://purl.org/dc/terms/modified">
+         <span>Date Modified</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/dateSubmitted" title="http://purl.org/dc/terms/dateSubmitted">
+         <span>Date Submitted</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/valid" title="http://purl.org/dc/terms/valid">
+         <span>Date Valid</span>
+      </a>
+   </li>
+   <li>
+      <a href="#hasLocation"
+         title="http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#hasLocation">hasLocation</a>
+   </li>
+   <li>
+      <a href="#hasValue"
+         title="http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#hasValue">hasValue</a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/identifier" title="http://purl.org/dc/terms/identifier">
+         <span>Identifier</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/title" title="http://purl.org/dc/terms/title">
+         <span>Title</span>
+      </a>
+   </li>
+</ul><h4>Named Individuals</h4><ul xmlns:widoco="https://w3id.org/widoco/vocab#"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    class="hlist">
+   <li>
+      <a href="#http://purl.org/dc/terms/abstract" title="http://purl.org/dc/terms/abstract">
+         <span>Abstract</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/accessRights" title="http://purl.org/dc/terms/accessRights">
+         <span>Access Rights</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/accrualMethod" title="http://purl.org/dc/terms/accrualMethod">
+         <span>Accrual Method</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/accrualPeriodicity" title="http://purl.org/dc/terms/accrualPeriodicity">
+         <span>Accrual Periodicity</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/accrualPolicy" title="http://purl.org/dc/terms/accrualPolicy">
+         <span>Accrual Policy</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/Agent" title="http://purl.org/dc/terms/Agent">
+         <span>Agent</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/AgentClass" title="http://purl.org/dc/terms/AgentClass">
+         <span>Agent Class</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/alternative" title="http://purl.org/dc/terms/alternative">
+         <span>Alternative Title</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/audience" title="http://purl.org/dc/terms/audience">
+         <span>Audience</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/educationLevel" title="http://purl.org/dc/terms/educationLevel">
+         <span>Audience Education Level</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/bibliographicCitation" title="http://purl.org/dc/terms/bibliographicCitation">
+         <span>Bibliographic Citation</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/BibliographicResource" title="http://purl.org/dc/terms/BibliographicResource">
+         <span>Bibliographic Resource</span>
+      </a>
+   </li>
+   <li>
+      <a href="#CastilloZaragoza"
+         title="http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#CastilloZaragoza">
+         <span>Castillo Zaragoza</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/conformsTo" title="http://purl.org/dc/terms/conformsTo">
+         <span>Conforms To</span>
+      </a>
+   </li>
+   <li>
+      <a href="#CongresoCadiz"
+         title="http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#CongresoCadiz">
+         <span>Congreso Cadiz</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/contributor" title="http://purl.org/dc/terms/contributor">
+         <span>Contributor</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/coverage" title="http://purl.org/dc/terms/coverage">
+         <span>Coverage</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/creator" title="http://purl.org/dc/terms/creator">
+         <span>Creator</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/date" title="http://purl.org/dc/terms/date">
+         <span>Date</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/dateAccepted" title="http://purl.org/dc/terms/dateAccepted">
+         <span>Date Accepted</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/available" title="http://purl.org/dc/terms/available">
+         <span>Date Available</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/dateCopyrighted" title="http://purl.org/dc/terms/dateCopyrighted">
+         <span>Date Copyrighted</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/created" title="http://purl.org/dc/terms/created">
+         <span>Date Created</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/modified" title="http://purl.org/dc/terms/modified">
+         <span>Date Modified</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/dateSubmitted" title="http://purl.org/dc/terms/dateSubmitted">
+         <span>Date Submitted</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/valid" title="http://purl.org/dc/terms/valid">
+         <span>Date Valid</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/Box" title="http://purl.org/dc/terms/Box">
+         <span>DCMI Box</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/Period" title="http://purl.org/dc/terms/Period">
+         <span>DCMI Period</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/Point" title="http://purl.org/dc/terms/Point">
+         <span>DCMI Point</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/DCMIType" title="http://purl.org/dc/terms/DCMIType">DCMI Type Vocabulary</a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/DDC" title="http://purl.org/dc/terms/DDC">DDC</a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/description" title="http://purl.org/dc/terms/description">
+         <span>Description</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/extent" title="http://purl.org/dc/terms/extent">
+         <span>Extent</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/FileFormat" title="http://purl.org/dc/terms/FileFormat">
+         <span>File Format</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/format" title="http://purl.org/dc/terms/format">
+         <span>Format</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/Frequency" title="http://purl.org/dc/terms/Frequency">
+         <span>Frequency</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/hasFormat" title="http://purl.org/dc/terms/hasFormat">
+         <span>Has Format</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/hasPart" title="http://purl.org/dc/terms/hasPart">
+         <span>Has Part</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/hasVersion" title="http://purl.org/dc/terms/hasVersion">
+         <span>Has Version</span>
+      </a>
+   </li>
+   <li>
+      <a href="#HotelVistaSevilla"
+         title="http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#HotelVistaSevilla">
+         <span>Hotel Vista Sevilla</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/identifier" title="http://purl.org/dc/terms/identifier">
+         <span>Identifier</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/IMT" title="http://purl.org/dc/terms/IMT">IMT</a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/instructionalMethod" title="http://purl.org/dc/terms/instructionalMethod">Instructional Method</a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/isFormatOf" title="http://purl.org/dc/terms/isFormatOf">
+         <span>Is Format Of</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/isPartOf" title="http://purl.org/dc/terms/isPartOf">
+         <span>Is Part Of</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/isReferencedBy" title="http://purl.org/dc/terms/isReferencedBy">
+         <span>Is Referenced By</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/isReplacedBy" title="http://purl.org/dc/terms/isReplacedBy">
+         <span>Is Replaced By</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/isRequiredBy" title="http://purl.org/dc/terms/isRequiredBy">
+         <span>Is Required By</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/isVersionOf" title="http://purl.org/dc/terms/isVersionOf">
+         <span>Is Version Of</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/ISO3166" title="http://purl.org/dc/terms/ISO3166">
+         <span>ISO 3166</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/ISO639-2" title="http://purl.org/dc/terms/ISO639-2">
+         <span>ISO 639-2</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/ISO639-3" title="http://purl.org/dc/terms/ISO639-3">
+         <span>ISO 639-3</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/Jurisdiction" title="http://purl.org/dc/terms/Jurisdiction">
+         <span>Jurisdiction</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/language" title="http://purl.org/dc/terms/language">
+         <span>Language</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/LCC" title="http://purl.org/dc/terms/LCC">LCC</a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/LCSH" title="http://purl.org/dc/terms/LCSH">LCSH</a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/license" title="http://purl.org/dc/terms/license">
+         <span>License</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/LicenseDocument" title="http://purl.org/dc/terms/LicenseDocument">
+         <span>License Document</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/LinguisticSystem" title="http://purl.org/dc/terms/LinguisticSystem">
+         <span>Linguistic System</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/Location" title="http://purl.org/dc/terms/Location">
+         <span>Location</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/LocationPeriodOrJurisdiction"
+         title="http://purl.org/dc/terms/LocationPeriodOrJurisdiction">
+         <span>Location, Period, or Jurisdiction</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/MediaType" title="http://purl.org/dc/terms/MediaType">
+         <span>Media Type</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/MediaTypeOrExtent" title="http://purl.org/dc/terms/MediaTypeOrExtent">
+         <span>Media Type or Extent</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/mediator" title="http://purl.org/dc/terms/mediator">
+         <span>Mediator</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/medium" title="http://purl.org/dc/terms/medium">
+         <span>Medium</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/MESH" title="http://purl.org/dc/terms/MESH">MeSH</a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/MethodOfAccrual" title="http://purl.org/dc/terms/MethodOfAccrual">
+         <span>Method of Accrual</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/MethodOfInstruction" title="http://purl.org/dc/terms/MethodOfInstruction">
+         <span>Method of Instruction</span>
+      </a>
+   </li>
+   <li>
+      <a href="#MetroMadrid"
+         title="http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#MetroMadrid">
+         <span>Metro Madrid</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/NLM" title="http://purl.org/dc/terms/NLM">NLM</a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/PeriodOfTime" title="http://purl.org/dc/terms/PeriodOfTime">
+         <span>Period of Time</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/PhysicalMedium" title="http://purl.org/dc/terms/PhysicalMedium">
+         <span>Physical Medium</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/PhysicalResource" title="http://purl.org/dc/terms/PhysicalResource">
+         <span>Physical Resource</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/Policy" title="http://purl.org/dc/terms/Policy">
+         <span>Policy</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/provenance" title="http://purl.org/dc/terms/provenance">Provenance</a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/ProvenanceStatement" title="http://purl.org/dc/terms/ProvenanceStatement">
+         <span>Provenance Statement</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/publisher" title="http://purl.org/dc/terms/publisher">
+         <span>Publisher</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/references" title="http://purl.org/dc/terms/references">
+         <span>References</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/relation" title="http://purl.org/dc/terms/relation">
+         <span>Relation</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/replaces" title="http://purl.org/dc/terms/replaces">
+         <span>Replaces</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/requires" title="http://purl.org/dc/terms/requires">
+         <span>Requires</span>
+      </a>
+   </li>
+   <li>
+      <a href="#RestauranteTradicionToledo"
+         title="http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#RestauranteTradicionToledo">
+         <span>Restaurante Tradicion Toledo</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/RFC1766" title="http://purl.org/dc/terms/RFC1766">
+         <span>RFC 1766</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/RFC3066" title="http://purl.org/dc/terms/RFC3066">
+         <span>RFC 3066</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/RFC4646" title="http://purl.org/dc/terms/RFC4646">
+         <span>RFC 4646</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/RFC5646" title="http://purl.org/dc/terms/RFC5646">
+         <span>RFC 5646</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/rights" title="http://purl.org/dc/terms/rights">
+         <span>Rights</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/rightsHolder" title="http://purl.org/dc/terms/rightsHolder">Rights Holder</a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/RightsStatement" title="http://purl.org/dc/terms/RightsStatement">
+         <span>Rights Statement</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/SizeOrDuration" title="http://purl.org/dc/terms/SizeOrDuration">
+         <span>Size or Duration</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/source" title="http://purl.org/dc/terms/source">
+         <span>Source</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/spatial" title="http://purl.org/dc/terms/spatial">
+         <span>Spatial Coverage</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/Standard" title="http://purl.org/dc/terms/Standard">
+         <span>Standard</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/subject" title="http://purl.org/dc/terms/subject">
+         <span>Subject</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/tableOfContents" title="http://purl.org/dc/terms/tableOfContents">
+         <span>Table Of Contents</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/temporal" title="http://purl.org/dc/terms/temporal">
+         <span>Temporal Coverage</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/" title="http://purl.org/dc/terms/">
+         <span>terms:</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/TGN" title="http://purl.org/dc/terms/TGN">TGN</a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/title" title="http://purl.org/dc/terms/title">
+         <span>Title</span>
+      </a>
+   </li>
+   <li>
+      <a href="#Toledo"
+         title="http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Toledo">
+         <span>Toledo</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/type" title="http://purl.org/dc/terms/type">
+         <span>Type</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/UDC" title="http://purl.org/dc/terms/UDC">UDC</a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/URI" title="http://purl.org/dc/terms/URI">
+         <span>URI</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://purl.org/dc/terms/W3CDTF" title="http://purl.org/dc/terms/W3CDTF">
+         <span>W3C-DTF</span>
+      </a>
+   </li>
+</ul><iframe src="webvowl/index.html"></iframe> 

@@ -94,7 +94,7 @@
     "id" : "55",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "58",
+    "id" : "56",
     "type" : "owl:Class"
   }, {
     "id" : "59",
@@ -106,7 +106,7 @@
     "id" : "28",
     "type" : "owl:Class"
   }, {
-    "id" : "57",
+    "id" : "58",
     "type" : "owl:Class"
   }, {
     "id" : "34",
@@ -270,12 +270,12 @@
   }, {
     "instances" : 0,
     "union" : [ "10", "33", "34" ],
-    "attributes" : [ "anonymous", "union" ],
+    "attributes" : [ "union", "anonymous" ],
     "id" : "32"
   }, {
     "instances" : 0,
     "union" : [ "10", "34", "2" ],
-    "attributes" : [ "anonymous", "union" ],
+    "attributes" : [ "union", "anonymous" ],
     "id" : "35"
   }, {
     "iri" : "http://purl.org/dc/terms/RightsStatement",
@@ -507,7 +507,7 @@
     "comment" : {
       "en" : "EventType"
     },
-    "id" : "58"
+    "id" : "56"
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
@@ -570,7 +570,7 @@
     "comment" : {
       "en" : "RestaurantType"
     },
-    "id" : "57"
+    "id" : "58"
   }, {
     "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#Restaurant",
     "baseIri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6",
@@ -712,30 +712,6 @@
         "en" : "LCSH"
       }
     }, {
-      "iri" : "http://purl.org/dc/terms/TGN",
-      "baseIri" : "http://purl.org/dc/terms",
-      "annotations" : {
-        "isDefinedBy" : [ {
-          "identifier" : "isDefinedBy",
-          "language" : "undefined",
-          "value" : "http://purl.org/dc/terms/",
-          "type" : "iri"
-        } ],
-        "seeAlso" : [ {
-          "identifier" : "seeAlso",
-          "language" : "undefined",
-          "value" : "http://www.getty.edu/research/tools/vocabulary/tgn/index.html",
-          "type" : "iri"
-        } ]
-      },
-      "comment" : {
-        "en" : "The set of places specified by the Getty Thesaurus of Geographic Names."
-      },
-      "labels" : {
-        "IRI-based" : "TGN",
-        "en" : "TGN"
-      }
-    }, {
       "iri" : "http://purl.org/dc/terms/MESH",
       "baseIri" : "http://purl.org/dc/terms",
       "annotations" : {
@@ -758,6 +734,30 @@
       "labels" : {
         "IRI-based" : "MESH",
         "en" : "MeSH"
+      }
+    }, {
+      "iri" : "http://purl.org/dc/terms/TGN",
+      "baseIri" : "http://purl.org/dc/terms",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://purl.org/dc/terms/",
+          "type" : "iri"
+        } ],
+        "seeAlso" : [ {
+          "identifier" : "seeAlso",
+          "language" : "undefined",
+          "value" : "http://www.getty.edu/research/tools/vocabulary/tgn/index.html",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "The set of places specified by the Getty Thesaurus of Geographic Names."
+      },
+      "labels" : {
+        "IRI-based" : "TGN",
+        "en" : "TGN"
       }
     }, {
       "iri" : "http://purl.org/dc/terms/NLM",
@@ -1426,7 +1426,7 @@
     "id" : "50",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "56",
+    "id" : "57",
     "type" : "owl:objectProperty"
   }, {
     "id" : "61",
@@ -1454,10 +1454,10 @@
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "82",
-    "type" : "owl:objectProperty"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "83",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "84",
     "type" : "rdfs:SubClassOf"
@@ -1484,10 +1484,10 @@
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "99",
-    "type" : "owl:objectProperty"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "100",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "102",
     "type" : "owl:objectProperty"
@@ -1781,12 +1781,12 @@
       "IRI-based" : "isTypeOfRestaurant",
       "en" : "isTypeOfRestaurant"
     },
-    "domain" : "57",
+    "domain" : "58",
     "comment" : {
       "en" : "Relation with types of restaurants offered"
     },
     "attributes" : [ "object" ],
-    "id" : "56"
+    "id" : "57"
   }, {
     "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isTypeOfHotel",
     "baseIri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6",
@@ -1866,20 +1866,6 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "79"
   }, {
-    "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isTypeOfTransport",
-    "baseIri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6",
-    "range" : "33",
-    "label" : {
-      "IRI-based" : "isTypeOfTransport",
-      "en" : "isTypeOfTransport"
-    },
-    "domain" : "66",
-    "comment" : {
-      "en" : "Relation with types of transport offered"
-    },
-    "attributes" : [ "object" ],
-    "id" : "82"
-  }, {
     "iri" : "http://purl.org/dc/terms/title",
     "baseIri" : "http://purl.org/dc/terms",
     "range" : "52",
@@ -1900,6 +1886,20 @@
       "en" : "A name given to the resource."
     },
     "attributes" : [ "external", "datatype" ],
+    "id" : "82"
+  }, {
+    "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#isTypeOfTransport",
+    "baseIri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6",
+    "range" : "33",
+    "label" : {
+      "IRI-based" : "isTypeOfTransport",
+      "en" : "isTypeOfTransport"
+    },
+    "domain" : "66",
+    "comment" : {
+      "en" : "Relation with types of transport offered"
+    },
+    "attributes" : [ "object" ],
     "id" : "83"
   }, {
     "range" : "81",
@@ -2020,20 +2020,6 @@
     "attributes" : [ "datatype" ],
     "id" : "97"
   }, {
-    "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#hasTransport",
-    "baseIri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6",
-    "range" : "3",
-    "label" : {
-      "IRI-based" : "hasTransport",
-      "undefined" : "hasTransport"
-    },
-    "domain" : "33",
-    "comment" : {
-      "en" : "Relation between transport and city"
-    },
-    "attributes" : [ "object" ],
-    "id" : "99"
-  }, {
     "iri" : "http://purl.org/dc/terms/identifier",
     "baseIri" : "http://purl.org/dc/terms",
     "range" : "59",
@@ -2057,6 +2043,20 @@
       "en" : "An unambiguous reference to the resource within a given context."
     },
     "attributes" : [ "external", "datatype" ],
+    "id" : "99"
+  }, {
+    "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#hasTransport",
+    "baseIri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "hasTransport",
+      "undefined" : "hasTransport"
+    },
+    "domain" : "33",
+    "comment" : {
+      "en" : "Relation between transport and city"
+    },
+    "attributes" : [ "object" ],
     "id" : "100"
   }, {
     "iri" : "http://www.semanticweb.org/valer/ontologies/2025/3/untitled-ontology-6#occursEventIn",
@@ -2150,7 +2150,7 @@
       "IRI-based" : "isTypeOfEvent",
       "en" : "isTypeOfEvent"
     },
-    "domain" : "58",
+    "domain" : "56",
     "comment" : {
       "en" : "Relation with types of events offered"
     },
